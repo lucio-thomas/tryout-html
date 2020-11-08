@@ -97,6 +97,9 @@ text-align: center;
 .animation2 {
   display: none;
 }
+.static2 {
+  display: block;
+}
 .trigger:hover .static2 {
 display: none;
 }
