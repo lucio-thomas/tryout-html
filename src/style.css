@@ -93,20 +93,15 @@ text-align: center;
   cursor: pointer;
   width: fit-content;
 }
-
-.animation2 {
-  display: none;
-}
 .static2 {
   display: block;
+}
+.animation2 {
+  display: none;
 }
 .trigger:hover .static2 {
 display: none;
 }
 .trigger:hover .animation2 {
   display: block;
-}
-.trigger {
-  cursor: pointer;
-  width: fit-content;
 }
