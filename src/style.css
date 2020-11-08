@@ -89,19 +89,7 @@ text-align: center;
 .trigger:hover .animation {
   display: block;
 }
-.trigger{
+.trigger {
   cursor: pointer;
   width: fit-content;
-}
-.static2 {
-  display: block;
-}
-.animation2 {
-  display: none;
-}
-.trigger:hover .static2 {
-display: none;
-}
-.trigger:hover .animation2 {
-  display: block;
 }
