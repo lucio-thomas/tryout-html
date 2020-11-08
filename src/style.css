@@ -24,7 +24,10 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   float: left;
   width: 80%;
 }
-
+.col100 {
+  float: left;
+  width: 100%;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -77,3 +80,16 @@ text-align: center;
   text-align: center;
 }
 
+.animation {
+  display: none;
+}
+.trigger:hover .static {
+  display: none;
+}
+.trigger:hover .animation {
+  display: block;
+}
+.trigger{
+  cursor: pointer;
+  width: fit-content;
+}
